@@ -5,6 +5,7 @@
 //  Copyright © 2015年 FR. All rights reserved.
 //
 
+
 #import "FRNavigationController.h"
 
 @interface FRNavigationController ()
@@ -73,14 +74,14 @@
     if (self.viewControllers.count > 0) {//这时push进来的控制器不是第一个控制器
         //自动隐藏tabBar
         viewController.hidesBottomBarWhenPushed = YES;
-    
+        
         NSBundle *mainBundle = [NSBundle bundleForClass:[FRNavigationController class]];
         NSBundle *resourcesBundle = [NSBundle bundleWithPath:[mainBundle pathForResource:@"FRNavigationController" ofType:@"bundle"]];
         
         if (resourcesBundle == nil) {
             resourcesBundle = mainBundle;
         }
-        
+    
         UIImage *backImage = [UIImage imageNamed:@"navigationbar_back" inBundle:resourcesBundle compatibleWithTraitCollection:nil];
         
         if ([[UIBarButtonItem appearance].tintColor isEqual:[UIColor whiteColor]]) {

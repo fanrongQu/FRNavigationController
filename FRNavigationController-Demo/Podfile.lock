@@ -1,11 +1,11 @@
 PODS:
-  - FRNavigationController (1.0.6)
+  - FRNavigationController (1.2.0)
 
 DEPENDENCIES:
   - FRNavigationController
 
 SPEC CHECKSUMS:
-  FRNavigationController: 2d8122f3451f4477962a3eda2900180f126d99e5
+  FRNavigationController: 023e156f64d3ba5d797e99d2bd77cc8f5faae9ca
 
 PODFILE CHECKSUM: bc7a0b5a69258a06e404af7aa924ce59b11613af
 
