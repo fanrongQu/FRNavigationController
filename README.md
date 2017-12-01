@@ -1,0 +1,5 @@
+# FRNavigationController
+一个拥有更平滑的navigationBar切换动画的NavigationController，拥有快速设置NavigationBar所属的背景、标题、Item颜色的NavigationController
+
+# CocoaPods
+pod 'FRNavigationController'
