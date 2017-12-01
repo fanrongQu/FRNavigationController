@@ -1,0 +1,6 @@
+framework module FRNavigationController {
+  umbrella header "FRNavigationController-umbrella.h"
+
+  export *
+  module * { export * }
+}

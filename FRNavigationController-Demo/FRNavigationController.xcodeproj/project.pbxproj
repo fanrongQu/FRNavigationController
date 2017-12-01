@@ -7,12 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04BD1CF91FD12E3100876E3D /* FRNavigationController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 04BD1CF81FD12E3100876E3D /* FRNavigationController.bundle */; };
-		04FD780F1FCEC141001D6E36 /* FRNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FD78081FCEC141001D6E36 /* FRNavigationController.m */; };
-		04FD78351FCFA43D001D6E36 /* UINavigationItem+FRFixSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FD782D1FCFA43D001D6E36 /* UINavigationItem+FRFixSpace.m */; };
-		04FD78361FCFA43D001D6E36 /* UIBarButtonItem+FRAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FD78301FCFA43D001D6E36 /* UIBarButtonItem+FRAdd.m */; };
-		04FD78371FCFA43D001D6E36 /* NSObject+FRRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FD78311FCFA43D001D6E36 /* NSObject+FRRuntime.m */; };
-		04FD78381FCFA43D001D6E36 /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FD78331FCFA43D001D6E36 /* UINavigationController+FDFullscreenPopGesture.m */; };
 		3BA73F211D0C25680049F2F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA73F201D0C25680049F2F0 /* main.m */; };
 		3BA73F241D0C25680049F2F0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA73F231D0C25680049F2F0 /* AppDelegate.m */; };
 		3BA73F271D0C25680049F2F0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA73F261D0C25680049F2F0 /* ViewController.m */; };
@@ -21,6 +15,7 @@
 		3BA73F2F1D0C25680049F2F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BA73F2D1D0C25680049F2F0 /* LaunchScreen.storyboard */; };
 		3BA73F3A1D0C25680049F2F0 /* FRNavigationControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA73F391D0C25680049F2F0 /* FRNavigationControllerTests.m */; };
 		3BA73F451D0C25680049F2F0 /* FRNavigationControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA73F441D0C25680049F2F0 /* FRNavigationControllerUITests.m */; };
+		83576471BE16E345726BB6C1 /* Pods_FRNavigationController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22326A41AC036601F4073E6F /* Pods_FRNavigationController.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,18 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04BD1CF81FD12E3100876E3D /* FRNavigationController.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FRNavigationController.bundle; sourceTree = "<group>"; };
-		04FD77FE1FCEC141001D6E36 /* FRNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRNavigationController.h; sourceTree = "<group>"; };
-		04FD78081FCEC141001D6E36 /* FRNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRNavigationController.m; sourceTree = "<group>"; };
-		04FD782C1FCFA43D001D6E36 /* UINavigationItem+FRFixSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationItem+FRFixSpace.h"; sourceTree = "<group>"; };
-		04FD782D1FCFA43D001D6E36 /* UINavigationItem+FRFixSpace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationItem+FRFixSpace.m"; sourceTree = "<group>"; };
-		04FD782E1FCFA43D001D6E36 /* NSObject+FRRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+FRRuntime.h"; sourceTree = "<group>"; };
-		04FD782F1FCFA43D001D6E36 /* UIBarButtonItem+FRAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+FRAdd.h"; sourceTree = "<group>"; };
-		04FD78301FCFA43D001D6E36 /* UIBarButtonItem+FRAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+FRAdd.m"; sourceTree = "<group>"; };
-		04FD78311FCFA43D001D6E36 /* NSObject+FRRuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+FRRuntime.m"; sourceTree = "<group>"; };
-		04FD78321FCFA43D001D6E36 /* UIKit+FRNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIKit+FRNavigationController.h"; sourceTree = "<group>"; };
-		04FD78331FCFA43D001D6E36 /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
-		04FD78341FCFA43D001D6E36 /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
+		026312020ACE145A1C9CD91A /* Pods-FRNavigationController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FRNavigationController.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FRNavigationController/Pods-FRNavigationController.debug.xcconfig"; sourceTree = "<group>"; };
+		2196815C214B186074821E77 /* Pods-FRNavigationController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FRNavigationController.release.xcconfig"; path = "Pods/Target Support Files/Pods-FRNavigationController/Pods-FRNavigationController.release.xcconfig"; sourceTree = "<group>"; };
+		22326A41AC036601F4073E6F /* Pods_FRNavigationController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FRNavigationController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BA73F1C1D0C25670049F2F0 /* FRNavigationController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FRNavigationController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BA73F201D0C25680049F2F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3BA73F221D0C25680049F2F0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -76,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83576471BE16E345726BB6C1 /* Pods_FRNavigationController.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,24 +83,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		04FD77FD1FCEC141001D6E36 /* FRNavigationController */ = {
+		0C8DABC512754B0FD4DFF8C6 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				04FD77FE1FCEC141001D6E36 /* FRNavigationController.h */,
-				04FD78081FCEC141001D6E36 /* FRNavigationController.m */,
-				04BD1CF81FD12E3100876E3D /* FRNavigationController.bundle */,
-				04FD782E1FCFA43D001D6E36 /* NSObject+FRRuntime.h */,
-				04FD78311FCFA43D001D6E36 /* NSObject+FRRuntime.m */,
-				04FD782F1FCFA43D001D6E36 /* UIBarButtonItem+FRAdd.h */,
-				04FD78301FCFA43D001D6E36 /* UIBarButtonItem+FRAdd.m */,
-				04FD78321FCFA43D001D6E36 /* UIKit+FRNavigationController.h */,
-				04FD78341FCFA43D001D6E36 /* UINavigationController+FDFullscreenPopGesture.h */,
-				04FD78331FCFA43D001D6E36 /* UINavigationController+FDFullscreenPopGesture.m */,
-				04FD782C1FCFA43D001D6E36 /* UINavigationItem+FRFixSpace.h */,
-				04FD782D1FCFA43D001D6E36 /* UINavigationItem+FRFixSpace.m */,
+				026312020ACE145A1C9CD91A /* Pods-FRNavigationController.debug.xcconfig */,
+				2196815C214B186074821E77 /* Pods-FRNavigationController.release.xcconfig */,
 			);
-			name = FRNavigationController;
-			path = ../../FRNavigationController;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		3BA73F131D0C25670049F2F0 = {
@@ -123,6 +99,8 @@
 				3BA73F381D0C25680049F2F0 /* FRNavigationControllerTests */,
 				3BA73F431D0C25680049F2F0 /* FRNavigationControllerUITests */,
 				3BA73F1D1D0C25670049F2F0 /* Products */,
+				0C8DABC512754B0FD4DFF8C6 /* Pods */,
+				538D5EB322E99BF4B4ACB2EE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -139,7 +117,6 @@
 		3BA73F1E1D0C25680049F2F0 /* FRNavigationController */ = {
 			isa = PBXGroup;
 			children = (
-				04FD77FD1FCEC141001D6E36 /* FRNavigationController */,
 				3BA73F221D0C25680049F2F0 /* AppDelegate.h */,
 				3BA73F231D0C25680049F2F0 /* AppDelegate.m */,
 				3BA73F251D0C25680049F2F0 /* ViewController.h */,
@@ -179,6 +156,14 @@
 			path = FRNavigationControllerUITests;
 			sourceTree = "<group>";
 		};
+		538D5EB322E99BF4B4ACB2EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22326A41AC036601F4073E6F /* Pods_FRNavigationController.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -186,9 +171,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3BA73F491D0C25680049F2F0 /* Build configuration list for PBXNativeTarget "FRNavigationController" */;
 			buildPhases = (
+				D91AC225DE5B2A0F86A9B527 /* [CP] Check Pods Manifest.lock */,
 				3BA73F181D0C25670049F2F0 /* Sources */,
 				3BA73F191D0C25670049F2F0 /* Frameworks */,
 				3BA73F1A1D0C25670049F2F0 /* Resources */,
+				CF69733FED92C35C2A8FE213 /* [CP] Embed Pods Frameworks */,
+				C292F472D3D7571A2DD5C931 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -283,7 +271,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				3BA73F2F1D0C25680049F2F0 /* LaunchScreen.storyboard in Resources */,
-				04BD1CF91FD12E3100876E3D /* FRNavigationController.bundle in Resources */,
 				3BA73F2C1D0C25680049F2F0 /* Assets.xcassets in Resources */,
 				3BA73F2A1D0C25680049F2F0 /* Main.storyboard in Resources */,
 			);
@@ -305,19 +292,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C292F472D3D7571A2DD5C931 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FRNavigationController/Pods-FRNavigationController-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF69733FED92C35C2A8FE213 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FRNavigationController/Pods-FRNavigationController-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D91AC225DE5B2A0F86A9B527 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3BA73F181D0C25670049F2F0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04FD78361FCFA43D001D6E36 /* UIBarButtonItem+FRAdd.m in Sources */,
-				04FD78371FCFA43D001D6E36 /* NSObject+FRRuntime.m in Sources */,
-				04FD78381FCFA43D001D6E36 /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
 				3BA73F271D0C25680049F2F0 /* ViewController.m in Sources */,
 				3BA73F241D0C25680049F2F0 /* AppDelegate.m in Sources */,
-				04FD78351FCFA43D001D6E36 /* UINavigationItem+FRFixSpace.m in Sources */,
 				3BA73F211D0C25680049F2F0 /* main.m in Sources */,
-				04FD780F1FCEC141001D6E36 /* FRNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +486,7 @@
 		};
 		3BA73F4A1D0C25680049F2F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 026312020ACE145A1C9CD91A /* Pods-FRNavigationController.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FRNavigationController/Info.plist;
@@ -467,6 +498,7 @@
 		};
 		3BA73F4B1D0C25680049F2F0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2196815C214B186074821E77 /* Pods-FRNavigationController.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FRNavigationController/Info.plist;

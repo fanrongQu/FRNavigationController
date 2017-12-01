@@ -1,0 +1,12 @@
+PODS:
+  - FRNavigationController (1.0.6)
+
+DEPENDENCIES:
+  - FRNavigationController
+
+SPEC CHECKSUMS:
+  FRNavigationController: 2d8122f3451f4477962a3eda2900180f126d99e5
+
+PODFILE CHECKSUM: bc7a0b5a69258a06e404af7aa924ce59b11613af
+
+COCOAPODS: 1.2.1

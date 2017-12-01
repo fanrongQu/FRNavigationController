@@ -1,0 +1,6 @@
+framework module Pods_FRNavigationController {
+  umbrella header "Pods-FRNavigationController-umbrella.h"
+
+  export *
+  module * { export * }
+}
