@@ -1,6 +1,6 @@
  Pod::Spec.new do |s|
  s.name = 'FRNavigationController'
- s.version = '1.2.0'
+ s.version = '1.2.1'
  s.license = {:type => 'MIT', :file => "LICENSE"}
  s.summary = '自定义导航控制器，并修改barButtonItem间距，适配iOS 11'
  s.authors = {'FR' => '1366225686@qq.com'}

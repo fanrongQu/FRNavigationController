@@ -84,11 +84,19 @@
     
         UIImage *backImage = [UIImage imageNamed:@"navigationbar_back" inBundle:resourcesBundle compatibleWithTraitCollection:nil];
         
-        if ([[UIBarButtonItem appearance].tintColor isEqual:[UIColor whiteColor]]) {
-            backImage = [UIImage imageNamed:@"navigationbar_white" inBundle:resourcesBundle compatibleWithTraitCollection:nil];
+        UIButton *button = [UIButton buttonWithType:UIButtonTypeSystem];
+        [button addTarget:self action:@selector(back) forControlEvents:UIControlEventTouchUpInside];
+        
+        [button setImage:backImage forState:UIControlStateNormal];
+        
+        [button sizeToFit];
+        if (button.bounds.size.width < 40) {
+            CGFloat width = 40 / button.bounds.size.height * button.bounds.size.width;
+            button.bounds = CGRectMake(0, 0, width, 40);
         }
-        UIBarButtonItem *backBtnItem = [UIBarButtonItem itemWithImage:backImage target:self action:@selector(back)];
-        viewController.navigationItem.leftBarButtonItem = backBtnItem;
+        button.tintColor = [UIBarButtonItem appearance].tintColor;
+        
+        viewController.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:button];
     }
     
     [super pushViewController:viewController animated:animated];
