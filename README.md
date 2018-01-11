@@ -24,7 +24,7 @@ pod 'FRNavigationController'
 //NavigationBar图片渲染颜色(默认黑色)
 @property (nonatomic, assign) UIColor *tintColor;
 ```
-另外可以通过内部为UIBarButtonItem增加的分类方法快速创建BarButtonItem，chuanjianItem对象为Button
+另外可以通过内部为UIBarButtonItem增加的分类方法快速创建BarButtonItem，创建Item对象为Button
 ```Objective-C
 
 /**
